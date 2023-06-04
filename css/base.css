@@ -1,0 +1,67 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Alice', serif;
+	font-size: 20px;
+	color: #C8C8C8;
+    background-color: #050505;
+	/* min-width: 1600px; */
+}
+
+@media (max-width: 991px) {
+	body {
+		font-size: 18px;
+	}
+}
+
+/* Utility */
+
+.none {
+	display: none !important;
+}
+
+.visually-hidden {
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+	width: 0px;
+	height: 0px;
+	display: block;
+	margin-left: -10000px;
+	background: transparent;
+	font-size: 0;
+}
+
+/* Grid */
+
+.container {
+	max-width: 1300px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+@media (max-width: 1399px) {
+	.container {
+		width: 100%;
+	}
+}
+
+.container-wide {
+	width: 1536px;
+}
+
+@media (max-width: 1535px) {
+	.container-wide {
+		width: 100%;
+	}
+}
+
+.no-scroll {
+	overflow: hidden;
+}
+*/
